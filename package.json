@@ -1,0 +1,25 @@
+{
+  "name": "sql-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "typescript": "^5.4.5",
+    "typescripte": "^1.0.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@geek/spinner": "^1.0.2",
+    "cli-spinners": "^3.0.0",
+    "mysql2": "^3.9.7",
+    "ora": "^8.0.1"
+  }
+}
